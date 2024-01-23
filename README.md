@@ -5,7 +5,7 @@
 In this project, we propose the implementation of an embedded system for depth map estimation in the field of autonomous driving. The system consists of a Microcontroller ESP-EYE with an integrated RGB camera and a Raspberry Pi 4 serving as a WebSocket host to receive and display pairs of RGB images captured along with their corresponding depth maps obtained by a lightweight deep-learning model running on the microcontroller. The implementation is done using the TensorFlow library [1]. For more detail, check [the project presentation](presentation.pptx).
 
 
-![Block Diagram](Images/block_diagram.png)
+![Block Diagram](Images/block_diagram.jpg)
 
 *Figure 1: Block diagram*
 
@@ -23,7 +23,7 @@ In this project, only RGB images and depth maps are utilized.
 
 The neural network architecture is inspired by the lightweight pyramidal feature extraction network proposed by Peluso et al. [7] to preprocess RGB images on microcontrollers and predict its depth map. 
 
-![Neural Network](Images/architecture.png)
+![Neural Network](Images/architecture.jpg)
 
 *Figure 2: Neural network for depth estimation*
 
